@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "target": "ES2015",
+    "module": "commonjs",   
+    "lib": ["es2016"],
+    "noImplicitAny": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "paths": {
+        "tslib" : ["node_modules/tslib/tslib.d.ts"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gorila-web-sockets": "^1.0.1",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
